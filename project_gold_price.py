@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 st.set_page_config(page_title="Gold Price Forecast", layout="wide")
 
 # Load dataset
-df = pd.read_csv("C:/Users/tusha/Downloads/Gold_data.csv")
+df = pd.read_csv("Gold_data.csv")
 df['date'] = pd.to_datetime(df['date'])
 df = df.sort_values("date")
 
