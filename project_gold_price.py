@@ -15,7 +15,7 @@ df = df.sort_values("date")
 
 # Load models
 
-arima_model = joblib.load("arima model.pkl")
+arima_model = joblib.load("ARIMA_model.pkl")
 
 # Helper: create lag features
 def create_lag_features(series, n_lags=30):
